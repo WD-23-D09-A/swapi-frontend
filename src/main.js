@@ -11,6 +11,7 @@ body.appendChild(header());
 
 const button = (text) => {
   const _button = document.createElement("button");
+
   _button.textContent = text;
   return _button;
 };
